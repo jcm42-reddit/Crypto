@@ -4,10 +4,6 @@ from time import sleep
 import csv
 from datetime import datetime
 
-
-
-
-
 #Functions below return data from Kraken BTC exchange. Data is packed into nested dictionaries and lists
 #Functions unpack nested items and convert desired string into float object 
 
@@ -121,7 +117,5 @@ def write_to_csv():
                         writer.writerow(final_data)
 
                         time.sleep(10)
-                   
-
-
+                        
 write_to_csv()
